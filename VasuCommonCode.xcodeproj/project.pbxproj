@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813A580D25A4655900CC4B80 /* VasuCommonCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813A580C25A4655900CC4B80 /* VasuCommonCode.swift */; };
+		81687B1825A434B2009344FB /* VasuCommonCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81687B0E25A434B2009344FB /* VasuCommonCode.framework */; };
+		81687B1D25A434B2009344FB /* VasuCommonCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81687B1C25A434B2009344FB /* VasuCommonCodeTests.swift */; };
+		81687B1F25A434B2009344FB /* VasuCommonCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 81687B1125A434B2009344FB /* VasuCommonCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81687B3125A43630009344FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81687B3025A43630009344FB /* AppDelegate.swift */; };
+		81687B3325A43630009344FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81687B3225A43630009344FB /* SceneDelegate.swift */; };
+		81687B3525A43630009344FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81687B3425A43630009344FB /* ViewController.swift */; };
+		81687B3825A43630009344FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81687B3625A43630009344FB /* Main.storyboard */; };
+		81687B3A25A43632009344FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81687B3925A43632009344FB /* Assets.xcassets */; };
+		81687B3D25A43632009344FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81687B3B25A43632009344FB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81687B1925A434B2009344FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81687B0525A434B2009344FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81687B0D25A434B2009344FB;
+			remoteInfo = VasuCommonCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		813A580C25A4655900CC4B80 /* VasuCommonCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasuCommonCode.swift; sourceTree = "<group>"; };
+		81687B0E25A434B2009344FB /* VasuCommonCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VasuCommonCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81687B1125A434B2009344FB /* VasuCommonCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VasuCommonCode.h; sourceTree = "<group>"; };
+		81687B1225A434B2009344FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81687B1725A434B2009344FB /* VasuCommonCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VasuCommonCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81687B1C25A434B2009344FB /* VasuCommonCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasuCommonCodeTests.swift; sourceTree = "<group>"; };
+		81687B1E25A434B2009344FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81687B2E25A43630009344FB /* VasuCommoncodeLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VasuCommoncodeLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81687B3025A43630009344FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81687B3225A43630009344FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81687B3425A43630009344FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81687B3725A43630009344FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81687B3925A43632009344FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81687B3C25A43632009344FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81687B3E25A43632009344FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81687B0B25A434B2009344FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81687B1425A434B2009344FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81687B1825A434B2009344FB /* VasuCommonCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81687B2B25A43630009344FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81687B0425A434B2009344FB = {
+			isa = PBXGroup;
+			children = (
+				81687B1025A434B2009344FB /* VasuCommonCode */,
+				81687B1B25A434B2009344FB /* VasuCommonCodeTests */,
+				81687B2F25A43630009344FB /* VasuCommoncodeLib */,
+				81687B0F25A434B2009344FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81687B0F25A434B2009344FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81687B0E25A434B2009344FB /* VasuCommonCode.framework */,
+				81687B1725A434B2009344FB /* VasuCommonCodeTests.xctest */,
+				81687B2E25A43630009344FB /* VasuCommoncodeLib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81687B1025A434B2009344FB /* VasuCommonCode */ = {
+			isa = PBXGroup;
+			children = (
+				81687B1125A434B2009344FB /* VasuCommonCode.h */,
+				81687B1225A434B2009344FB /* Info.plist */,
+				813A580C25A4655900CC4B80 /* VasuCommonCode.swift */,
+			);
+			path = VasuCommonCode;
+			sourceTree = "<group>";
+		};
+		81687B1B25A434B2009344FB /* VasuCommonCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				81687B1C25A434B2009344FB /* VasuCommonCodeTests.swift */,
+				81687B1E25A434B2009344FB /* Info.plist */,
+			);
+			path = VasuCommonCodeTests;
+			sourceTree = "<group>";
+		};
+		81687B2F25A43630009344FB /* VasuCommoncodeLib */ = {
+			isa = PBXGroup;
+			children = (
+				81687B3025A43630009344FB /* AppDelegate.swift */,
+				81687B3225A43630009344FB /* SceneDelegate.swift */,
+				81687B3425A43630009344FB /* ViewController.swift */,
+				81687B3625A43630009344FB /* Main.storyboard */,
+				81687B3925A43632009344FB /* Assets.xcassets */,
+				81687B3B25A43632009344FB /* LaunchScreen.storyboard */,
+				81687B3E25A43632009344FB /* Info.plist */,
+			);
+			path = VasuCommoncodeLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81687B0925A434B2009344FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81687B1F25A434B2009344FB /* VasuCommonCode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		81687B0D25A434B2009344FB /* VasuCommonCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81687B2225A434B2009344FB /* Build configuration list for PBXNativeTarget "VasuCommonCode" */;
+			buildPhases = (
+				81687B0925A434B2009344FB /* Headers */,
+				81687B0A25A434B2009344FB /* Sources */,
+				81687B0B25A434B2009344FB /* Frameworks */,
+				81687B0C25A434B2009344FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VasuCommonCode;
+			productName = VasuCommonCode;
+			productReference = 81687B0E25A434B2009344FB /* VasuCommonCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81687B1625A434B2009344FB /* VasuCommonCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81687B2525A434B2009344FB /* Build configuration list for PBXNativeTarget "VasuCommonCodeTests" */;
+			buildPhases = (
+				81687B1325A434B2009344FB /* Sources */,
+				81687B1425A434B2009344FB /* Frameworks */,
+				81687B1525A434B2009344FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81687B1A25A434B2009344FB /* PBXTargetDependency */,
+			);
+			name = VasuCommonCodeTests;
+			productName = VasuCommonCodeTests;
+			productReference = 81687B1725A434B2009344FB /* VasuCommonCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81687B2D25A43630009344FB /* VasuCommoncodeLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81687B3F25A43632009344FB /* Build configuration list for PBXNativeTarget "VasuCommoncodeLib" */;
+			buildPhases = (
+				81687B2A25A43630009344FB /* Sources */,
+				81687B2B25A43630009344FB /* Frameworks */,
+				81687B2C25A43630009344FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VasuCommoncodeLib;
+			productName = VasuCommoncodeLib;
+			productReference = 81687B2E25A43630009344FB /* VasuCommoncodeLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81687B0525A434B2009344FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					81687B0D25A434B2009344FB = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					81687B1625A434B2009344FB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					81687B2D25A43630009344FB = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 81687B0825A434B2009344FB /* Build configuration list for PBXProject "VasuCommonCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81687B0425A434B2009344FB;
+			productRefGroup = 81687B0F25A434B2009344FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81687B0D25A434B2009344FB /* VasuCommonCode */,
+				81687B1625A434B2009344FB /* VasuCommonCodeTests */,
+				81687B2D25A43630009344FB /* VasuCommoncodeLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81687B0C25A434B2009344FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81687B1525A434B2009344FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81687B2C25A43630009344FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81687B3D25A43632009344FB /* LaunchScreen.storyboard in Resources */,
+				81687B3A25A43632009344FB /* Assets.xcassets in Resources */,
+				81687B3825A43630009344FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81687B0A25A434B2009344FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813A580D25A4655900CC4B80 /* VasuCommonCode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81687B1325A434B2009344FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81687B1D25A434B2009344FB /* VasuCommonCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81687B2A25A43630009344FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81687B3525A43630009344FB /* ViewController.swift in Sources */,
+				81687B3125A43630009344FB /* AppDelegate.swift in Sources */,
+				81687B3325A43630009344FB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81687B1A25A434B2009344FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81687B0D25A434B2009344FB /* VasuCommonCode */;
+			targetProxy = 81687B1925A434B2009344FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81687B3625A43630009344FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81687B3725A43630009344FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81687B3B25A43632009344FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81687B3C25A43632009344FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81687B2025A434B2009344FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81687B2125A434B2009344FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81687B2325A434B2009344FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 427QUWZW67;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VasuCommonCode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VasuCommonCode;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81687B2425A434B2009344FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 427QUWZW67;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VasuCommonCode/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VasuCommonCode;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81687B2625A434B2009344FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 427QUWZW67;
+				INFOPLIST_FILE = VasuCommonCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VasuCommonCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81687B2725A434B2009344FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 427QUWZW67;
+				INFOPLIST_FILE = VasuCommonCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VasuCommonCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81687B4025A43632009344FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 427QUWZW67;
+				INFOPLIST_FILE = VasuCommoncodeLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VasuCommoncodeLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81687B4125A43632009344FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 427QUWZW67;
+				INFOPLIST_FILE = VasuCommoncodeLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VasuCommoncodeLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81687B0825A434B2009344FB /* Build configuration list for PBXProject "VasuCommonCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81687B2025A434B2009344FB /* Debug */,
+				81687B2125A434B2009344FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81687B2225A434B2009344FB /* Build configuration list for PBXNativeTarget "VasuCommonCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81687B2325A434B2009344FB /* Debug */,
+				81687B2425A434B2009344FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81687B2525A434B2009344FB /* Build configuration list for PBXNativeTarget "VasuCommonCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81687B2625A434B2009344FB /* Debug */,
+				81687B2725A434B2009344FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81687B3F25A43632009344FB /* Build configuration list for PBXNativeTarget "VasuCommoncodeLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81687B4025A43632009344FB /* Debug */,
+				81687B4125A43632009344FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81687B0525A434B2009344FB /* Project object */;
+}
